@@ -10,7 +10,9 @@ We create this [open-sourced](https://github.com/Dappub/signupeoseos) DApp calle
 
 As shown in the below screenshot:
 
-![img](https://cdn-images-1.medium.com/max/800/1*R7ZLxKbjev54kN3mDTsl5g.png)Signup via a simple exchange (Bitfinex) withdraw
+![img](https://cdn-images-1.medium.com/max/800/1*R7ZLxKbjev54kN3mDTsl5g.png)
+
+*Signup via a simple exchange (Bitfinex) withdraw*
 
 You only need to withdraw around 2 EOS ( the exact amount might vary based on the EOS RAM price) to our DApp address: [**signupeoseos**](https://eosflare.io/account/signupeoseos). Remember to fill in the “MEMO field” with the 12-bit EOS account name that you want to create, followed by your public key address (separated by the minus sign “-”)
 
@@ -18,11 +20,15 @@ If you don’t know how to create your EOS key pair, you can try [EOS Key Genera
 
 You can create your account by a simple transfer or withdraw operation and check the created account info on “eosflare.io” or “eospark.com”.
 
-![img](https://cdn-images-1.medium.com/max/800/1*G0r5jbXGdYuToELkShlvUQ.png)*An created EOS account (irisiloveyou) info on “eosflare.io“*
+![img](https://cdn-images-1.medium.com/max/800/1*G0r5jbXGdYuToELkShlvUQ.png)
+
+*An created EOS account (irisiloveyou) info on “eosflare.io“*
 
 The DApp will register the account for you without charging extra service fee. Among the 2 EOS that you transfer to us, 0.1 EOS is staked for the CPU resource, another 0.1 EOS is staked for the bandwidth resource, and all the remaining 1.8 EOS will be used to purchase EOS RAM for your newly created EOS account. Also, if you’d like to buy more EOS RAM for investment purpose, you could transfer more than 2 EOS, all additional EOS will be used for buying EOS RAM for your account. In this way, you can invest EOS RAM without an EOS wallet at all.
 
-![img](https://cdn-images-1.medium.com/max/800/1*SVSpIH6l6EIjF67r3avzwQ.png)*Actions of Dapp “signupeoseos” on “eosflare.io”*
+![img](https://cdn-images-1.medium.com/max/800/1*SVSpIH6l6EIjF67r3avzwQ.png)
+
+*Actions of Dapp “signupeoseos” on “eosflare.io”*
 
 As you can see, all registration operations are done by our DApp “signupeoseos” on the EOS blockchain automatically once you finished the transfer/withdraw operation. If you have any problem, you can refer to our open-sourced Github repo or contact us via our Telegram or Discord.
 
