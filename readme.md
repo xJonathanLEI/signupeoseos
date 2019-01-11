@@ -1,4 +1,4 @@
-# Create your own EOS account easily using the open-sourced non-service-fee DApp: “signupeoseos”**
+# Create your own EOS account easily using the open-sourced non-service-fee DApp: “signupeoseos”
 
 Most EOS wallets have shut down their free EOS account registration service recently due to the increasing cost of EOS RAM. Some unreliable third-party agents claim to help register EOS accounts for other people but steal private keys and assets instead.
 
