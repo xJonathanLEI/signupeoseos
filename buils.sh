@@ -1,0 +1,1 @@
+eosio-cpp signupeoseos.cpp -o signupeoseos.wasm --abigen
