@@ -1,15 +1,24 @@
-# signupeoseos
+# auto create account
 
-### Install
+set transfer memo
 
-```
-cleos create account eosio signupeoseo your_public_key
-cleos set account permission signupeoseos active '{"threshold": 1,"keys": [{"key": "your_public_key","weight": 1}],"accounts": [{"permission":{"actor":"signupeoseos","permission":"eosio.code"},"weight":1}]}' owner -p signupeoseos
-make build_and_deploy
+    accountName-ownerKey
+    //or
+    accountName-ownerKey-actionKey
+    
+    
+
+
+```bash
+cleos transfer cochainworld eosio.create "1.0000 CCA" "cochain11111-EOS5e2RCTAMU21HthGpsCxYigAcYqv6oYjbUwarS9r1dEGzwRRSSP"
+# or 
+cleos transfer cochainworld eosio.create "1.0000 CCA" "cochain11111-EOS5e2RCTAMU21HthGpsCxYigAcYqv6oYjbUwarS9r1dEGzwRRSSP-EOS5a28N3vt6hYAStHyMEMSaozFjCdT4mdaekH9BqrZ32ZCKKdezv"
 ```
 
-### Usage
 
-```
-cleos transfer eosio signupeoseos "5 EOS" "your_account_name-your_public_key"
-```
+
+
+
+    set symbol
+    
+    #define CORE_SYMBOL eosio::symbol("CCA",4)
